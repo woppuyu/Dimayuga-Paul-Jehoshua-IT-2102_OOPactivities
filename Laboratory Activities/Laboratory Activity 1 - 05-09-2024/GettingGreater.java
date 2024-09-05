@@ -14,14 +14,10 @@ public class GettingGreater {
 
         int asciiFirst = (int) firstChar;
         int asciiSecond = (int) secondChar;
-        char greaterChar;
 
-        if (asciiFirst > asciiSecond) {
-            greaterChar = firstChar;
-        }
-        else {
-            greaterChar = secondChar;
-        }
+        int greaterAscii = Math.max(asciiFirst, asciiSecond);
+
+        char greaterChar = (char) greaterAscii;
 
         System.out.println("----------------------------------------------");
         System.out.println("The character with the greater value is: " + greaterChar);
