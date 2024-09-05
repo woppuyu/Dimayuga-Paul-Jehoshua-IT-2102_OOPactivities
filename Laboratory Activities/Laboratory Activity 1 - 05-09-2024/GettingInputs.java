@@ -27,7 +27,7 @@ public class GettingInputs {
         System.out.println("Year Released: " + year);
         System.out.println("Genre: " + genre);
         System.out.println("Album: " + album);
-        System.out.println("Title: " + title);
+        System.out.println("Title: \"" + title + "\"");
         System.out.println("Artist: " + artist);
 
         cin.close();
